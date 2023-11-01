@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
   console.log('Request Init')
-  res.send('Response from Server!')
+  res.send('Heyyyy, Updated Response from Server!')
 })
 
 const port = process.env.PORT || 5000
